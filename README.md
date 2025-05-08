@@ -6,7 +6,7 @@ A modern, responsive lamp showcase website built using **HTML**, **CSS**, and **
 
 ## 🌐 Live Demo
 
-**[Demo Link](https://yourusername.github.io/your-repo-name)**
+**[Demo Link](https://glo-wish.netlify.app/)**
 
 ---
 
