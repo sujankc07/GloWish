@@ -28,13 +28,15 @@ A modern, responsive lamp showcase website built using **HTML**, **CSS**, and **
 
 ---
 
-Project Structure
+## 📂 Project Structure
+ ```bash
 GloWish/
 ├── index.html
 ├── style.css
 ├── images/
 └── README.md
-
+```
+---
 ## 🚀 Getting Started
 
 1. Clone the repo:
