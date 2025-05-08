@@ -42,6 +42,6 @@ GloWish/
 1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/GloWish.git
-   cd lamp-website
+   cd GloWish
    ```
 2. Open index.html in your browser.
