@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GloWish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/menu.png" class="menu-img">
+            <img src="images/main-logo1.png" class="logo-img">
+            <ul>
+                <li><a href="https://www.whiteteak.com/decorative-lights/new-arrival/?utm_campaign=Topcities_Search_inMarket_home&utm_source=google&utm_medium=cpc&utm_content=458204979525&utm_term=&adgroupid=112801221808&gad_source=1&gad_campaignid=10897259960&gbraid=0AAAAADcSMTtVQGjnvz8e9VOVLIlSFSReZ&gclid=Cj0KCQjwrPHABhCIARIsAFW2XBOwYHudlNFMFmOewV-S68_2xSy8f6-BHYZ_gYRhR-Ff7PAj3D3GnucaAslfEALw_wcB"
+                        target="_blank">Latest</a>
+                </li>
+                <li><a href="https://www.oorjaa.in/collections/modern-lamps-lights?srsltid=AfmBOop0VIK4pKl4TWes4tmz3Ky59TC0s2gwcpzCtRXaE6LhfZvLSgtv"
+                        target="_blank">Modern</a>
+                </li>
+                <li><a href="https://www.ikea.com/in/en/cat/lamps-li002/" target="_blank">Affordable</a></li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+        </nav>
+
+        <div class="lamp-container">
+            <img src="images/lamp.png" class="lamp-img">
+            <img src="images/light.png" class="light-img" id="light">
+        </div>
+
+        <div class="text-container">
+            <h1>Latest <br> in Lighting</h1>
+            <br>
+            <p>This is the first lamp from our company. We're making a huge collection of modern Lamps in all categories
+                from home use to office use.</p>
+            <a href="https://www.pepperfry.com/category/lamps-and-lighting.html?srsltid=AfmBOooG_hjZYSwW7eXDoMwEd1tfePGtu1Qbu1lm92SgRBiyAKh_WV7m"
+                target="_blank">Check
+                All Collections</a>
+
+        </div>
+
+    </div>
+
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+
+        function toggleBtn() {
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+        }
+    </script>
+</body>
+
+</html>
